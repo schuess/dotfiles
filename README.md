@@ -86,10 +86,17 @@ files identically.
 
 ## What's tracked
 
+Symlinked into `$HOME` by `install.sh`:
+
 - `.zshrc`, `.zshenv`, `.zprofile`
 - `.gitconfig`
 - `.vimrc`
 - `.hammerspoon/` (whole directory — init.lua + assets + Spoons)
+
+Tracked but not symlinked (manual import on a new machine):
+
+- `prefs/Actions.moom` — Moom snap actions. Update with **File →
+  Export** in Moom; import with **File → Import** on a new machine.
 
 ## What's deliberately not tracked
 

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Custom Controls (4001)</key>
+	<array>
+		<dict>
+			<key>Action</key>
+			<integer>0</integer>
+			<key>Identifier</key>
+			<string>3325B93A-279A-4C97-8356-ADE2B88F27F0</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>-101</integer>
+			<key>Identifier</key>
+			<string>A65DCA41-5EFA-4962-A5DA-4874D7CF8A47</string>
+			<key>Title</key>
+			<string>Big</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>3</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>1</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>AF6EFFE0-B03B-45BB-B6F1-6E959413FBE5</string>
+				<key>Key Code</key>
+				<integer>38</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘J</string>
+			</dict>
+			<key>Identifier</key>
+			<string>AF6EFFE0-B03B-45BB-B6F1-6E959413FBE5</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {0.33333333333333331, 1}}</string>
+			<key>Title</key>
+			<string>Left Third</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>6</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>1</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>03B5B83F-A2E4-4908-AB96-91C1386A5A53</string>
+				<key>Key Code</key>
+				<integer>38</integer>
+				<key>Modifier Flags</key>
+				<integer>917795</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧J</string>
+			</dict>
+			<key>Identifier</key>
+			<string>03B5B83F-A2E4-4908-AB96-91C1386A5A53</string>
+			<key>Relative Frame</key>
+			<string>{{0.16666666666666666, 0}, {0.33333333333333337, 1}}</string>
+			<key>Title</key>
+			<string>Left Middle</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>3</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>1</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>A67B6F09-EA02-4853-8ADC-D1DE9796A43E</string>
+				<key>Key Code</key>
+				<integer>40</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘K</string>
+			</dict>
+			<key>Identifier</key>
+			<string>A67B6F09-EA02-4853-8ADC-D1DE9796A43E</string>
+			<key>Relative Frame</key>
+			<string>{{0.33333333333333331, 0}, {0.33333333333333331, 1}}</string>
+			<key>Title</key>
+			<string>Middle Third</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>9</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>9</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>F853BCDC-C155-41C5-9E03-499C900AC746</string>
+				<key>Key Code</key>
+				<integer>34</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘I</string>
+			</dict>
+			<key>Identifier</key>
+			<string>F853BCDC-C155-41C5-9E03-499C900AC746</string>
+			<key>Relative Frame</key>
+			<string>{{0.22222222222222221, 0.1111111111111111}, {0.55555555555555569, 0.88888888888888884}}</string>
+			<key>Title</key>
+			<string>Front and Center</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{1045, 963}, {639, 1043}}</string>
+				<key>Window Number</key>
+				<string>67382</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 86×71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>3</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>1</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>DDC74CDD-70C4-425B-B7BE-48E7BFD342FA</string>
+				<key>Key Code</key>
+				<integer>37</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘L</string>
+			</dict>
+			<key>Identifier</key>
+			<string>DDC74CDD-70C4-425B-B7BE-48E7BFD342FA</string>
+			<key>Relative Frame</key>
+			<string>{{0.66666666666666663, 0}, {0.33333333333333337, 1}}</string>
+			<key>Title</key>
+			<string>Right Third</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>0</integer>
+			<key>Identifier</key>
+			<string>887ED972-15F1-4827-8355-59FE929279D9</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>6</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>6</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>AE3BD4F4-C9B8-462C-91A9-C8B0C10FFDFA</string>
+				<key>Key Code</key>
+				<integer>45</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘N</string>
+			</dict>
+			<key>Identifier</key>
+			<string>AE3BD4F4-C9B8-462C-91A9-C8B0C10FFDFA</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {0.5, 0.16666666666666666}}</string>
+			<key>Title</key>
+			<string>Log Left</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{404, 963}, {639, 1043}}</string>
+				<key>Window Number</key>
+				<string>67382</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 86×71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>6</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>6</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>2113F9E9-CC96-4527-8D04-C843BCF0C8BA</string>
+				<key>Key Code</key>
+				<integer>45</integer>
+				<key>Modifier Flags</key>
+				<integer>917795</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧N</string>
+			</dict>
+			<key>Identifier</key>
+			<string>2113F9E9-CC96-4527-8D04-C843BCF0C8BA</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {0.66666666666666663, 0.16666666666666666}}</string>
+			<key>Title</key>
+			<string>Log Left Long</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{404, 963}, {639, 1043}}</string>
+				<key>Window Number</key>
+				<string>67382</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 86×71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>6</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>6</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>1712C7DA-46E5-49F9-B74C-5527D29878A3</string>
+				<key>Key Code</key>
+				<integer>39</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘'</string>
+			</dict>
+			<key>Identifier</key>
+			<string>1712C7DA-46E5-49F9-B74C-5527D29878A3</string>
+			<key>Relative Frame</key>
+			<string>{{0.5, 0}, {0.5, 0.16666666666666666}}</string>
+			<key>Title</key>
+			<string>Log Right</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{-236, 956}, {961, 175}}</string>
+				<key>Window Number</key>
+				<string>67382</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 132×9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>9</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>6</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>381DF1D5-6E5D-40D7-83DB-BB0CBC8A9506</string>
+				<key>Key Code</key>
+				<integer>32</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘U</string>
+			</dict>
+			<key>Identifier</key>
+			<string>381DF1D5-6E5D-40D7-83DB-BB0CBC8A9506</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0.16666666666666666}, {0.66666666666666674, 0.83333333333333337}}</string>
+			<key>Title</key>
+			<string>Monitor Big</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{1045, 963}, {639, 1043}}</string>
+				<key>Window Number</key>
+				<string>67382</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 86×71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Configuration Grid</key>
+			<dict>
+				<key>Configuration Grid: Columns</key>
+				<integer>9</integer>
+				<key>Configuration Grid: Rows</key>
+				<integer>9</integer>
+			</dict>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>1EF5037F-B2E4-4EF4-9085-E5602D991CB7</string>
+				<key>Key Code</key>
+				<integer>16</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘Y</string>
+			</dict>
+			<key>Identifier</key>
+			<string>1EF5037F-B2E4-4EF4-9085-E5602D991CB7</string>
+			<key>Relative Frame</key>
+			<string>{{0.1111111111111111, 0.44444444444444442}, {0.22222222222222221, 0.44444444444444464}}</string>
+			<key>Title</key>
+			<string>Monitor Small</string>
+			<key>Window Description</key>
+			<dict>
+				<key>Application Name</key>
+				<string>Terminal</string>
+				<key>Available Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1050}}</string>
+				<key>Bundle Identifier</key>
+				<string>com.apple.terminal</string>
+				<key>PID</key>
+				<string>4806</string>
+				<key>Screen Frame</key>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+				<key>Window Frame</key>
+				<string>{{1045, 963}, {639, 1043}}</string>
+				<key>Window Number</key>
+				<string>67595</string>
+				<key>Window Subrole</key>
+				<string>AXStandardWindow</string>
+				<key>Window Title</key>
+				<string>r — -zsh — 86×71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>41</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>7A6B0F79-97FB-428A-91BD-741AD60050E5</string>
+				<key>Key Code</key>
+				<integer>31</integer>
+				<key>Modifier Flags</key>
+				<integer>1966379</integer>
+				<key>Visual Representation</key>
+				<string>⌃⌥⇧⌘O</string>
+			</dict>
+			<key>Identifier</key>
+			<string>7A6B0F79-97FB-428A-91BD-741AD60050E5</string>
+			<key>Loop Through Displays</key>
+			<true/>
+			<key>Move Direction</key>
+			<integer>3</integer>
+			<key>Resize Proportionally</key>
+			<true/>
+			<key>Title</key>
+			<string>Other Screen</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>1001</integer>
+			<key>Activate Applications</key>
+			<false/>
+			<key>Apply to Active Display</key>
+			<false/>
+			<key>Apply to Overlapping Windows</key>
+			<true/>
+			<key>Auto-Trigger</key>
+			<false/>
+			<key>Auto-Trigger Display Count</key>
+			<integer>1</integer>
+			<key>Auto-Trigger: Wake</key>
+			<false/>
+			<key>Generic</key>
+			<true/>
+			<key>Identifier</key>
+			<string>8B783F3A-7AAB-4BDB-AAF8-69DC931A31A4</string>
+			<key>Snapshot</key>
+			<array>
+				<dict>
+					<key>Application Name</key>
+					<string>Terminal</string>
+					<key>Available Screen Frame</key>
+					<string>{{-236, 956}, {1920, 1050}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.apple.terminal</string>
+					<key>PID</key>
+					<string>4806</string>
+					<key>Screen Frame</key>
+					<string>{{-236, 956}, {1920, 1080}}</string>
+					<key>Window Frame</key>
+					<string>{{1073, 963}, {961, 1043}}</string>
+					<key>Window Number</key>
+					<string>67382</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>r — -zsh — 132×71</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Terminal</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 0}, {1470, 923}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.apple.terminal</string>
+					<key>PID</key>
+					<string>4806</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {1470, 956}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 6}, {884, 917}}</string>
+					<key>Window Number</key>
+					<string>18615</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>tellident — toolbox --prebuilt mysql — 121×62</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Terminal</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 0}, {1470, 923}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.apple.terminal</string>
+					<key>PID</key>
+					<string>4806</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {1470, 956}}</string>
+					<key>Window Frame</key>
+					<string>{{116, 509}, {611, 385}}</string>
+					<key>Window Number</key>
+					<string>62856</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>palimpsest — cat — 82×24</string>
+				</dict>
+			</array>
+			<key>Snapshot Screens</key>
+			<array>
+				<string>{{0, 0}, {1470, 956}}</string>
+				<string>{{-236, 956}, {1920, 1080}}</string>
+			</array>
+			<key>Stubborn</key>
+			<false/>
+			<key>Title</key>
+			<string>Left &amp; Right</string>
+		</dict>
+	</array>
+</dict>
+</plist>

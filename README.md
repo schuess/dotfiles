@@ -15,6 +15,27 @@ curl -L sch.us/setup.sh | sh
 entry under `files/` into `$HOME`. Pre-existing files are backed up
 with a `.backup.<timestamp>` suffix. Idempotent — re-run safely.
 
+Two things `install.sh` doesn't do:
+
+- **Doesn't install git** — needs to be there already (usually is on
+  macOS after the first `git` invocation triggers the Xcode CLT
+  install).
+- **Doesn't create `~/.zshrc.local`.** If the new machine needs the
+  Delta creds (or any other secrets), write that file by hand after
+  install — otherwise `.zshrc` sources it conditionally and just
+  skips it.
+
+`install.sh` clones via HTTPS (no auth needed for a public repo).
+But `dotsync` from the new machine will try to push via the same
+HTTPS URL — that needs auth. If you want to push from the new
+machine, either switch `origin` to the SSH URL after install:
+
+```
+git -C ~/.dotfiles remote set-url origin git@github.com:schuess/dotfiles.git
+```
+
+…or set up a GitHub PAT for HTTPS.
+
 ## Per-machine secrets
 
 Anything secret or machine-specific lives in `~/.zshrc.local` (mode

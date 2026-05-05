@@ -34,7 +34,7 @@ done
 
 cat <<'NOTE'
 
-Done. If you have machine-local env (DELTA_DENTAL_*, API keys, etc),
+Done. If you have machine-local env (user/pass, API keys, etc),
 create ~/.zshrc.local with those exports and chmod 600 it -- .zshrc
 sources it on shell startup but it stays out of the dotfiles repo.
 NOTE

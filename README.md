@@ -44,6 +44,25 @@ dotsync "tweak prompt"   # custom message
 
 `dotsync` is defined in the tracked `.zshrc`.
 
+## Adding a new file to track
+
+Say you want to start tracking `~/.tmux.conf`:
+
+```
+mv ~/.tmux.conf ~/.dotfiles/files/.tmux.conf
+ln -s ~/.dotfiles/files/.tmux.conf ~/.tmux.conf
+dotsync "track .tmux.conf"
+```
+
+Or, if the file doesn't exist yet, create it directly under
+`~/.dotfiles/files/` and then `ln -s` it into `$HOME`. Re-running
+`install.sh` on other machines will pick it up automatically (because
+the loop walks every entry in `files/`).
+
+For a directory (like `.hammerspoon` was), do the same — `mv` it in,
+then `ln -s` the whole directory. `install.sh` symlinks dirs and
+files identically.
+
 ## What's tracked
 
 - `.zshrc`, `.zshenv`, `.zprofile`

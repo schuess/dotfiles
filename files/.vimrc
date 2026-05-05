@@ -20,17 +20,18 @@
 " tmux: leader-Z toggles current pane to full pane (for copy-paste, for example)
 " count number of things in a line: :s/,//gn counts commas
 " insert tab when expandtab is on: insert mode C-v<Tab> or turn expandtab off: set expandtab!
+" :%retab to retab
 " ½ is <C-k> 12
 " ¼ is <C-k> 14
 " degree symbol (º) is <C-k> -o
 " rot13: g?G
 " launch browser and open URL under cursor: gx
 
-" Disable the default Vim startup message.
 syntax on
 set number
 " set relativenumber
 set ruler
+" Disable the default Vim startup message.
 set shortmess+=I
 
 " Always show the status line at the bottom, even if you only have one window open.
@@ -43,7 +44,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-" :%retab to retab
 set backspace=indent,eol,start " equivalent to set backspace=2; check with :set backspace?
 set whichwrap+=h,l
 

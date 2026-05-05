@@ -1,7 +1,9 @@
 -- Hammerspoon config
 -- Meh = Ctrl + Option + Shift
+-- Hyper = Ctrl + Option + Shift + Cmd
 
 local meh = {"ctrl", "alt", "shift"}
+local hyper = {"ctrl", "alt", "shift", "cmd"}
 local keyboardMapPath = hs.configdir .. "/assets/keymap.png"
 
 local overlay = nil
@@ -65,7 +67,7 @@ end
 hs.hotkey.bind(meh, "K", toggleOverlay)
 
 -- Move mouse to center of another screen and click
-hs.hotkey.bind(meh, "O", function()
+hs.hotkey.bind(hyper, "O", function()
   local currentScreen = hs.mouse.getCurrentScreen()
   local allScreens = hs.screen.allScreens()
 

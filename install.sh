@@ -5,7 +5,7 @@
 # entry under files/ into $HOME, backing up any existing real file.
 set -eu
 
-REPO_URL="${DOTFILES_REPO:-https://github.com/YOUR_GITHUB_USERNAME/dotfiles.git}"
+REPO_URL="${DOTFILES_REPO:-https://github.com/schuess/dotfiles.git}"
 DEST="${DOTFILES_DIR:-$HOME/.dotfiles}"
 TS="$(date +%Y%m%d-%H%M%S)"
 

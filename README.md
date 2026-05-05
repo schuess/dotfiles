@@ -9,7 +9,7 @@ proprietary tool, just plain git plus a tiny installer.
 curl -L sch.us/setup.sh | sh
 ```
 
-(Or, without the redirect: `curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/dotfiles/main/install.sh | sh`.)
+(Or, without the redirect: `curl -fsSL https://raw.githubusercontent.com/schuess/dotfiles/main/install.sh | sh`.)
 
 `install.sh` clones this repo to `~/.dotfiles` and symlinks every
 entry under `files/` into `$HOME`. Pre-existing files are backed up

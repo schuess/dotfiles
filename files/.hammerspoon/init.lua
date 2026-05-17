@@ -89,8 +89,38 @@ hs.hotkey.bind(meh, "O", function()
   end
 end)
 
+
+-- Cursor-jump grid driven by F-keys sent from a ZSA layer.
+-- Bottom row uses Alt+F-key to dodge Mac brightness on F14/F15.
+--
+--   u → F13      i → F16      o → F17        (top:    upper-left, upper-mid, upper-right)
+--   j → F18      k → F19      l → F20        (middle: mid-left,   center,    mid-right)
+--   m → ⌥F13     , → ⌥F16     . → ⌥F17       (bottom: lower-left, lower-mid, lower-right)
+
+local function jumpTo(col, row)
+  local screen = hs.mouse.getCurrentScreen() or hs.screen.mainScreen()
+  local f = screen:frame()
+  hs.mouse.absolutePosition(hs.geometry.point(
+    f.x + f.w * (col + 0.5) / 3,
+    f.y + f.h * (row + 0.5) / 3
+  ))
+end
+
+hs.hotkey.bind({},      "f13", function() jumpTo(0, 0) end)
+hs.hotkey.bind({},      "f16", function() jumpTo(1, 0) end)
+hs.hotkey.bind({},      "f17", function() jumpTo(2, 0) end)
+hs.hotkey.bind({},      "f18", function() jumpTo(0, 1) end)
+hs.hotkey.bind({},      "f19", function() jumpTo(1, 1) end)
+hs.hotkey.bind({},      "f20", function() jumpTo(2, 1) end)
+hs.hotkey.bind({"alt"}, "f13", function() jumpTo(0, 2) end)
+hs.hotkey.bind({"alt"}, "f16", function() jumpTo(1, 2) end)
+hs.hotkey.bind({"alt"}, "f17", function() jumpTo(2, 2) end)
+
+
 hs.alert.show("Hammerspoon config loaded")
 
 hs.hotkey.bind(meh, "A", function()
   hs.execute([[open "x-apple.systempreferences:com.apple.preference.universalaccess?Seeing_Display"]])
 end)
+
+

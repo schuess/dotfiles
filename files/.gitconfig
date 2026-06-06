@@ -5,3 +5,5 @@
     email = github@sch.us
 [pull]
 	rebase = true
+[core]
+	excludesfile = ~/.gitignore_global

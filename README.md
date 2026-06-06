@@ -90,6 +90,8 @@ Symlinked into `$HOME` by `install.sh`:
 
 - `.zshrc`, `.zshenv`, `.zprofile`
 - `.gitconfig`
+- `.gitignore_global` (machine-wide ignores; `.gitconfig` points at it
+  via `core.excludesfile = ~/.gitignore_global`)
 - `.vimrc`
 - `.hammerspoon/` (whole directory — init.lua + assets + Spoons)
 

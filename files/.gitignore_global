@@ -1,0 +1,41 @@
+# global gitignore
+#
+# Symlinked to ~/.gitignore_global by install.sh, and referenced from
+# the tracked .gitconfig via `core.excludesfile = ~/.gitignore_global`.
+# Applies to every repo on the machine. Personal / OS / editor / tooling
+# noise only — project artifacts belong in each repo's own .gitignore.
+
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-workspace
+
+# Python (envs, caches, build metadata)
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+.vite/
+*.tsbuildinfo
+
+# Claude Code / git worktrees / scratch dirs
+.claude/worktrees/
+.worktrees/
+claude-worktrees/
+tmp/
+scratch/
+
+# Local MCP config (machine-local connection details / secrets)
+.mcp.json

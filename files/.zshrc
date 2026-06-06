@@ -1,24 +1,37 @@
-PROMPT='%m:%/> '
+autoload -Uz vcs_info
+
+precmd() {
+  vcs_info
+}
+
+zstyle ':vcs_info:git:*' formats ' (%b)'
+
+setopt PROMPT_SUBST
+
+if [[ -n "$SSH_CONNECTION" ]]; then
+  PROMPT='%(?..[%?] )%m:%~${vcs_info_msg_0_} '
+else
+  PROMPT='%(?..[%?] )%~${vcs_info_msg_0_} '
+fi
+
+PROMPT+='%(#.!!.>) '
 
 setopt globdots
 setopt extended_glob
-bindkey -v
-export EDITOR='vim'
-export PATH=./:~/.local/bin:$PATH
 
 alias python='python3'
-
-alias g='cd ~/rlocal/projects/tellident/' # g for go/goals/get it
+alias g='cd ~/rlocal/projects/tellident/' # current project: g for go/goals/get it
 alias n='cd ~/Dropbox/home/; vim now'
 alias nn='cd ~/Dropbox/home/'
-
 alias ll='ls -AFltr --color=auto'
-
 alias u='cd ..'
 alias uu='cd ../..'
 alias uuu='cd ../../..'
-
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
+export EDITOR='vim'
+bindkey -v
+export PATH=./:~/.local/bin:$PATH
 
 dotsync() {
   local msg="${*:-sync}"

@@ -28,3 +28,10 @@ dotsync() {
 }
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]]; then
+    printf "\n\033[1;31m*** USE GHOSTTY INSTEAD OF TERMINAL ***\033[0m\n\n"
+    open -a Ghostty
+    sleep 5
+    exit
+fi

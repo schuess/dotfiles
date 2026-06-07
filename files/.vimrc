@@ -56,3 +56,12 @@ imap jf <Esc>:update<CR>
 
 " instead of !!date or :r! date "<format>":
 imap \dt # ----- <C-R>=strftime('%Y-%m-%d %H:%M:%S %a %b %d')<CR><CR><Esc>
+
+
+" Cursor shapes in terminal Vim / Ghostty
+let &t_SI = "\<Esc>[6 q"   " Insert mode: steady beam
+let &t_EI = "\<Esc>[2 q"   " Normal mode: steady block
+let &t_SR = "\<Esc>[4 q"   " Replace mode: steady underline
+
+" Optional: also tell Vim's cursor model
+set guicursor=n-v-c:block,i-ci:ver25,r-cr:hor20,o:hor50,sm:block

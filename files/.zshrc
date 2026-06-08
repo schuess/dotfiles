@@ -62,6 +62,7 @@ bindkey -v
 
 export WALDEN="https://www.gutenberg.org/files/205/205-0.txt"
 export ALICE="https://www.gutenberg.org/files/11/11-0.txt"
+export SHAKESPEARE="https://www.gutenberg.org/cache/epub/100/pg100.txt"
 
 [[ -d "$HOME/.local/bin" ]] && export PATH="$HOME/.local/bin:$PATH"
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

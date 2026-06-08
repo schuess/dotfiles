@@ -20,7 +20,7 @@ setopt globdots
 setopt extended_glob
 
 alias python='python3'
-alias g='cd ~/rlocal/projects/tellident/' # current project: g for go/goals/get it
+alias g='cd ~/rlocal/projects/tellident/' # current project: go/goals/get it
 alias n='cd ~/Dropbox/home/; vim now'
 alias nn='cd ~/Dropbox/home/'
 alias ll='ls -AFltr --color=auto'
@@ -29,8 +29,33 @@ alias uu='cd ../..'
 alias uuu='cd ../../..'
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 
+# use vim on the command line
 export EDITOR='vim'
+# Cursor shapes for Ghostty / compatible terminals
+function cursor_beam() {
+    printf '\e[6 q'   # steady beam
+}
+function cursor_block() {
+    printf '\e[2 q'   # steady block
+}
+function cursor_underline() {
+    printf '\e[4 q'   # steady underline
+}
+function zle-keymap-select {
+    case $KEYMAP in
+        vicmd) cursor_block ;;
+        viins|main) cursor_beam ;;
+    esac
+}
+function zle-line-init {
+    cursor_beam
+}
+zle -N zle-keymap-select
+zle -N zle-line-init
 bindkey -v
+
+export WALDEN="https://www.gutenberg.org/files/205/205-0.txt"
+export ALICE="https://www.gutenberg.org/files/11/11-0.txt"
 export PATH=./:~/.local/bin:$PATH
 
 dotsync() {

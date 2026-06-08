@@ -28,7 +28,7 @@ alias view='vim -R'
 alias python='python3'
 alias pythong='python3'
 
-alias ll='ls -AFltr --color=auto'
+alias ll='ls -AFltr'
 alias u='cd ..'
 alias uu='cd ../..'
 alias uuu='cd ../../..'
@@ -64,7 +64,7 @@ export WALDEN="https://www.gutenberg.org/files/205/205-0.txt"
 export ALICE="https://www.gutenberg.org/files/11/11-0.txt"
 
 [[ -d "$HOME/.local/bin" ]] && export PATH="$HOME/.local/bin:$PATH"
-[ -f ~/.zshrc.local ] && source ~/.zshrc.local
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
 dotsync() {
   local msg="${*:-sync}"

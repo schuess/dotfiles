@@ -36,7 +36,7 @@ cat <<'NOTE'
 
 Install:
 
-ghossty
+ghostty
 hammerspoon
 moom
 tailscale
